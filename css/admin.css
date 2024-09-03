@@ -1,0 +1,41 @@
+body {
+    /* background: #181414ab; fallback for old browsers */
+     background: linear-gradient(to right, #000000, #0000009f); 
+    font-family: "Roboto", sans-serif;   
+    color: whitesmoke;
+  }
+
+.card-content
+{
+    background: linear-gradient(to right, #0000009f, #000000);
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translateY(32%);
+    -ms-transform: translateY(32%);
+    transform: translateY(32%);
+   
+}
+
+.input-field>small{
+	font-size: 1.0rem;
+	color: #ffffff;
+}
+
+.input-field>span{
+  font-size: 1.5rem;
+  color: #ffffff;
+  float: left;
+}
+
+
+.error-msg{
+    background: #ff0000;
+    color: aliceblue;
+    padding: 10px;
+  }
+
+input   
+{
+  color: #ffffff;
+}
